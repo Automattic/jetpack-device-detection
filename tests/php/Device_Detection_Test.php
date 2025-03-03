@@ -3,8 +3,6 @@
  * Tests for the Automattic\Jetpack\Mobile package.
  *
  * @package automattic/jetpack-device-detection
- *
- * @phpcs:disable WordPress.Files.FileName
  */
 
 use Automattic\Jetpack\Device_Detection;
@@ -13,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Tests for the Device_Detection class.
  */
-class Test_Device_Detection extends TestCase {
+class Device_Detection_Test extends TestCase {
 
 	/**
 	 * The is_mobile tests.
